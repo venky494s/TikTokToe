@@ -1,0 +1,78 @@
+.tic{
+  margin-left: 10%;
+}
+.label{
+  font-family:monospace;
+  font-size:40px;
+}
+.score{
+  width: 400px;
+  height: 200px;
+  font-size: 30px;
+  background-color: gray;
+  color:white;
+}
+
+body{
+  display: flex;
+}
+#display{
+  width: 700px;
+  height: 500px;
+  font-size: 100px;
+  font-family: monospace;
+  background-color: blue;
+  color:white;
+  border:20px yellow solid;
+}
+#start{
+  width: 150px;
+  height: 50px;
+  font-size: 20px;
+  font-family: sans-serif;
+  background-color: blue;
+  color:white;
+
+}
+.input > input{
+  text-align: center;
+  width: 250px;
+  height: 50px;
+  color:white;
+  background-color: blue;
+  border-bottom:3px orange solid;
+  font-size: 50px;
+  font-family: sans-serif;
+}
+#row1{
+  background-color: white;
+  margin-left:50px;
+  margin-bottom:3px;
+  position: relative;
+  display: flex;
+}
+#row2{
+  background-color: white;
+  margin-left:50px;
+  margin-bottom:3px;
+  position: relative;
+  display: flex;
+}
+#row3{
+  background-color: white;
+  margin-left:50px;
+  margin-bottom:3px;
+  position: relative;
+  display: flex;
+}
+.cell{
+  background-color: blue;
+  border:yellow 2px solid;
+  color:white;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 80px;
+  text-align: center;
+  margin-right:4px;
+  width:150px;
+  height:150px;
+}
